@@ -1,0 +1,56 @@
+body{
+    background-image: url("/img/background2.jpg");
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.regform{
+    width:500px;
+    margin:250px auto;
+    padding:10px 30px 30px;
+    background-color:rgb(218, 187, 244,.5);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.regform h2{
+    color:rgb(239, 62, 255);
+    text-align: center;
+}
+.regform label{
+    display:block
+}
+.radio label{
+    display:inline;
+}
+.input input{
+    width:90%;
+    font-size:1em;
+    border:1px solid white;
+    border-radius: 7px;
+    padding:3px;
+    color:rgb(239, 62, 255);
+    box-sizing:border-box;
+    margin:5px 0px 10px;
+}
+.radio input{
+    margin:10px 0px 15px;
+}
+input:focus{
+    background-color: rgb(232, 220, 245);
+}
+.button{
+    text-align:center;
+}
+button{
+    font-size:25px;
+    color: rgb(239, 62, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:15px;
+    border: 2px solid white;
+}
+.radio input{
+    accent-color:rgb(239, 62, 255) ;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
